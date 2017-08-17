@@ -74,37 +74,109 @@ body {
 	.footer-tools {
 	  display: inline-block;
     position: relative;
-    right: -20px;
+    right: -30px;
 	}
 
 	.share-tools {
 	}
 
 	.share-tools-menu {
+    display: flex;
+    align-items: center;
 
 	  li {
 	    display: inline-block;
-	    padding: 0 5px;
+      position: relative;
+      top: 6px;
+	    /*padding: 0 5px;*/
+      margin: 0 5px;
+      width: 27px;
+      height: 27px;
 	  }
 	  .facebook {
-	    position: relative;
-	    top: 1px;
+      background: image_url('facebook-black.png');
+      background-repeat: no-repeat;
+      background-position: center;
 	  }
+    .facebook:hover {
+      background: image_url('facebook-blue.png');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
 	  .twitter {
+      background: image_url('twitter-black.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      top: 6px;
 	  }
+    .twitter:hover {
+      background: image_url('twitter-blue.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      top: 7px;
+    }
 	  .email {
+      background: image_url('mail-black.png');
+      background-repeat: no-repeat;
+      background-position: center;
 	  }
+    .email:hover {
+      background: image_url('mail-grey.png');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
 	  .forward {
-	  padding-right: 10px;
+      background: image_url('forward-black.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      top: 6px;
 	  }
+    .forward:hover {
+      background: image_url('forward-grey.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      top: 7px;
+    }
 	  .save {
-	    padding-left: 10px;
+	    /*margin-left: 15px;*/
+      padding-left: 10px;
+      width: 40px;
 	    border-left: 1px solid #e2e2e2;
+      background: image_url('flag.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      top: 7px;
 	  }
+    .save:hover {
+      background: image_url('flag-black.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      top: 8px;
+    }
 	  .diag {
 	    position: relative;
-	    top: 2px;
+	    left: -10px;
+      top: 10px;
+      background: image_url('dialogue.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 45px;
+      height: 45px;
 	  }
+    .diag:hover {
+      background: image_url('dialogue-hover.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      left: -10px;
+      top: 7px;
+    }
 	}
 }
 
