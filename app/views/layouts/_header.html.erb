@@ -1,1 +1,38 @@
-<nav></nav>
+<header class="navbar navbar-fixed-top masthead">
+  <nav class="header-container">
+<!--start left section  -->
+    <div class ="nav navbar-nav navbar-left quick-navigation"</div> 
+      <button class ="button button-section">
+        <%= image_tag("menu.png", class:"icon sprite-icon") %>
+        <span class ="button-text">Sections</span>
+      </button>
+      <button class ="button button-home">
+        <%= image_tag("t-logo.png", class:"icon sprite-icon") %>
+        <span class ="button-text">Home</span>
+      </button>
+      <button class ="button button-search">
+        <%= image_tag("search.png", class:"icon sprite-icon") %>
+        <span class ="button-text">Search</span>
+      </button>
+    </div>
+<!--start middle section with logo -->
+    <div class = "nav navbar-nav branding">
+      <%= image_tag("nyt-logo-185x26.png", class:"nyt-logo") %>
+    </div>
+<!--start right section  -->
+    <div class = 'nav navbar-nav navbar-right user-tools'>
+      <button class ="button button-subscribe">
+        <span class ="button-text">Subscribe now</span>
+      </button>
+      <button class ="button button-login">
+        <span class ="button-text">Log in</span>
+      </button>
+      <button class ="button button-settings">
+        <%= image_tag("settings.png", class:"icon sprite-icon") %>
+      </button>
+    </div>
+
+
+
+  </nav>
+</header>
