@@ -1,7 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-* {
+header {
   font-family: "nyt-franklin",arial,helvetica,sans-serif;
 }
 
@@ -11,6 +11,7 @@
 
 .header-container {
   /*background-color: pink;*/
+  background-color:white;
   height: 50px;
   display: flex;
   justify-content: space-between;
