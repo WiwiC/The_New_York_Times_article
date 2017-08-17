@@ -1,2 +1,118 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+* {
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+}
+
+.masthead {
+  /*background-color: black;*/
+}
+
+.header-container {
+  /*background-color: pink;*/
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quick-navigation {
+  /*background-color: yellow;*/
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  color: #333;
+  font-weight: 700;
+  .button:hover {
+  background-color: #f7f7f5;
+}
+}
+
+.branding {
+  /*background-color: green;*/
+}
+
+.user-tools {
+  /*background-color: yellow;*/
+  display: flex;
+  justify-content: space-around;
+  width: 260px;
+  font-weight: 700;
+  span {
+    color: #fff;
+  }
+}
+
+
+/*Buttons*/
+
+.button {
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  height: 30px;
+  padding: 6px 9px;
+  display: flex;
+  align-items: center;
+}
+
+.button-text {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #333;
+  font-weight: 700;
+}
+
+.button-section {
+  font-weight: 700;
+  box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06), inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+  border-bottom-color: #cecece;
+  border: 1px solid #e2e2e2;
+  span {
+    padding-left: 5px;
+  }
+  img {
+ /*   position: relative;
+    top: 1px;*/
+  }
+}
+
+.button-home {
+  span {
+    padding-left: 5px;
+  }
+  img {
+    position: relative;
+    top: -1px;
+  }
+}
+
+.button-search {
+  span {
+    padding-left: 5px;
+  }
+}
+
+.button-subscribe, .button-login {
+  background-color: #6288a5;
+  border-color: #4d7b9f;
+  
+}
+
+.button-subscribe:hover, .button-login:hover {
+  background-color: #326891;
+  border-color: #265e8b;
+}
+
+.button-settings:hover {
+  background-color: #f7f7f5;
+}
+
+
+
+/*Logo*/
+.nyt-logo {
+  position: relative;
+  left: -36px;
+}
